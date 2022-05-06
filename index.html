@@ -7,37 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calac ulator</title>
     <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
 </head>
 
 <body>
 
-    <div class="calculator">
+    <div class="calculator-shape">
 
-        <div class="output">
-            <div class="previous-operand"></div>
-            <div class="current-operand"></div>
+        <div class="output-screen">
+            <div class="output__Current">
+                <h1 id="mainOutput">test</h1>
+                <!-- <p id="currentOperator">Test</p> -->
+            </div>
+            <!-- <div class="output__Previous">
+                <h2 id="secondOutput">test</h2>
+            </div> -->
         </div>
 
-        <button class="action">C</button>
-        <button class="action">Del</button>
-        <button class="signs">%</button>
-        <button class="signs">÷</button>
-        <button class="numbers">1</button>
-        <button class="numbers">2</button>
-        <button class="numbers">3</button>
-        <button class="signs">*</button>
-        <button class="numbers">4</button>
-        <button class="numbers">5</button>
-        <button class="numbers">6</button>
-        <button class="signs">+</button>
-        <button class="numbers">7</button>
-        <button class="numbers">8</button>
-        <button class="numbers">9</button>
-        <button class="signs">-</button>
-        <button class="signs">+/-</button>
-        <button class="numbers">0</button>
-        <button class="signs">.</button>
-        <button class="equals">=</button>
+        <button id="buttonClear" class="action">C</button>
+        <button id="buttonDel" class="action">Del</button>
+        <button id="buttonPercent" class="signs">%</button>
+        <button id="buttonDiv" class="signs">÷</button>
+        <button id="number1" class="numbers">1</button>
+        <button id="number2" class="numbers">2</button>
+        <button id="number3" class="numbers">3</button>
+        <button id="buttonTimes" class="signs">*</button>
+        <button id="number4" class="numbers">4</button>
+        <button id="number5" class="numbers">5</button>
+        <button id="number6" class="numbers">6</button>
+        <button id="buttonMinus" class="signs">-</button>
+        <button id="number7" class="numbers">7</button>
+        <button id="number8" class="numbers">8</button>
+        <button id="number9" class="numbers">9</button>
+        <button id="buttonPlus" class="signs">+</button>
+        <button id="buttonNeg" class="signs">+/-</button>
+        <button id="number0" class="numbers">0</button>
+        <button id="buttonPeriod" class="numbers">.</button>
+        <button id="buttonEquals" class="equals">=</button>
 
     </div>
 
